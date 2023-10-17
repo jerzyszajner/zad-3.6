@@ -6,8 +6,7 @@ body {
     background: #fff;     
     color: #3d3d3d;   
     font-size: 16px;    
-    line-height: 4;       
-    font-family: 'Open Sans', sans-serif;      
+    line-height: 4;          
 }
 
 .container {
@@ -65,7 +64,7 @@ button a {
 }
 
 
-.container-fluid{
+#intro .container-fluid{
     background: #1e824889;
     padding-bottom: 70px;
 }
@@ -79,5 +78,40 @@ p {
     font-size: 30px;
     color: #ffffff;
     margin: 0px;
+}
+
+/* Services */
+
+#services .container-fluid {
+    background: #ffffff;
+}
+
+#services h1 {
+    font-size: 30px;    
+    color:#3d3d3d;
+    margin-bottom: -40px;
+
+}
+
+#services p {
+    color:#3d3d3d;
+    font-size: 16px;
+    margin-top: -30px;
+    line-height: 20px;
+    padding-bottom: 70px;
+
+}
+
+#services h2 {
+    color:#3d3d3d;   
+}
+
+#services h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#services a:hover {
+    color: #4CAF50;
 }
 
