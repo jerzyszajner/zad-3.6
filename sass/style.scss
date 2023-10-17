@@ -207,3 +207,33 @@ p {
     overflow: hidden; /* Ukryj zawartość poza granicami */
     background-color: #af4c8b86;
 }
+
+/* Footer */
+
+footer .sm-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer p {
+    color: #000000;
+    font-size: 16px;
+    justify-content: space-around;
+    padding: 33.333px;
+}
+
+footer .sm-list i {
+    color: red;
+    padding: 10px;
+}
+
+.sm-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.sm-list a:hover {
+    color: #4CAF50;
+}
