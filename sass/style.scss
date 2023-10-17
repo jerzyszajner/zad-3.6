@@ -82,7 +82,7 @@ p {
 
 /* Services */
 
-#services .container-fluid {
+#services .container {
     background: #ffffff;
 }
 
@@ -115,3 +115,95 @@ p {
     color: #4CAF50;
 }
 
+/* Portfolio */
+
+#portfolio .row {
+    justify-content: center;
+}
+
+#portfolio .container-fluid {
+    background: #201f1f1d;
+}
+
+#portfolio h1 {
+    font-size: 30px;    
+    color:#3d3d3d;
+    margin-bottom: -40px;
+}
+
+#portfolio p {
+    color:#3d3d3d;
+    font-size: 16px;
+    margin-top: -30px;
+    line-height: 20px;
+    padding-bottom: 70px;
+
+}
+
+#portfolio h2 {
+    color:#3d3d3d;   
+}
+
+#portfolio h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#portfolio a:hover {
+    color: #4CAF50;
+}
+
+#portfolio .col-md-3:nth-child(2) {
+    background-image: url('https://i.postimg.cc/d0cB8GbP/pexels-jess-loiterton-4321802.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .col-md-3:nth-child(3) {
+    background-image: url('https://i.postimg.cc/9fyLSLdQ/pexels-rebeca-gonc-alves-1770310.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .col-md-3:nth-child(4) {
+    background-image: url('https://i.postimg.cc/9FqZJrtW/pexels-asad-photo-maldives-3250614.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .col-md-3:nth-child(5) {
+    background-image: url('https://i.postimg.cc/YC06Ybns/pexels-alina-skazka-14822268.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .col-md-3:nth-child(6) {
+    background-image: url('https://i.postimg.cc/kgJ89fP5/pexels-jacub-gomez-1168744.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .col-md-3:nth-child(7) {
+    background-image: url('https://i.postimg.cc/h47ykPKG/pexels-lukman-kakim-3598176.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .col-md-3 {
+    margin: 10px; 
+}
+
+.col-md-3 {
+    position: relative; /* Ustawienie relatywne, aby pozycjonować dzieci względem tego diva */
+    height: 500px; /* Przykładowa wysokość dla demonstracji. Możesz ustawić inną wartość lub usunąć tę linię, jeśli już masz określoną wysokość. */
+}
+
+.content {
+    position: absolute; /* Pozycjonowanie względem rodzica */
+    bottom: 0; /* Zacznij od górnej krawędzi */
+    left: 0; /* Zacznij od lewej krawędzi */
+    right: 0; /* Rozciągnij do prawej krawędzi */
+    height: 20%; /* Ustaw wysokość na 20% rodzica */
+    overflow: hidden; /* Ukryj zawartość poza granicami */
+    background-color: #af4c8b86;
+}
