@@ -1,0 +1,83 @@
+/* Global */
+
+body {      
+    margin: 0;    
+    text-align: center;    
+    background: #fff;     
+    color: #3d3d3d;   
+    font-size: 16px;    
+    line-height: 4;       
+    font-family: 'Open Sans', sans-serif;      
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Header */
+
+header {
+    background-image: url('https://i.postimg.cc/y8BqgfcC/pexels-vlada-karpovich-7368277.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;  
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li {
+    margin: 0px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #4CAF50;
+}
+
+h1 {
+    color: #ffe600;
+
+}
+
+/* Intro */
+
+button {
+    border: none;
+    background-color: #ffe600ac;
+    padding: 15px;
+    color: #ffffff;
+    margin: auto;
+}
+
+button a {
+    text-decoration: none;
+
+}
+
+
+.container-fluid{
+    background: #1e824889;
+    padding-bottom: 70px;
+}
+
+h2 {
+    color: #ffffff;
+    margin: 0px;
+}
+
+p {
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0px;
+}
+

@@ -1,3 +1,78 @@
+/* Global */
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 4;
+  font-family: "Open Sans", sans-serif;
+}
 
+.container {
+  padding: 20px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* Header */
+header {
+  background-image: url("https://i.postimg.cc/y8BqgfcC/pexels-vlada-karpovich-7368277.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  margin: 0px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #4CAF50;
+}
+
+h1 {
+  color: #ffe600;
+}
+
+/* Intro */
+button {
+  border: none;
+  background-color: rgba(255, 230, 0, 0.6745098039);
+  padding: 15px;
+  color: #ffffff;
+  margin: auto;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  background: rgba(30, 130, 72, 0.537254902);
+  padding-bottom: 70px;
+}
+
+h2 {
+  color: #ffffff;
+  margin: 0px;
+}
+
+p {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDSSxTQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtFQUNBLG9DQUFBO0FDQUo7O0FER0E7RUFDSSxhQUFBO0FDQUo7O0FER0EsV0FBQTtBQUVBO0VBQ0kseUZBQUE7RUFDQSxzQkFBQTtFQUNBLDJCQUFBO0VBQ0EsYUFBQTtBQ0RKOztBRElBO0VBQ0kscUJBQUE7RUFDQSxVQUFBO0VBQ0EsYUFBQTtFQUNBLDhCQUFBO0FDREo7O0FESUE7RUFDSSxXQUFBO0FDREo7O0FESUE7RUFDSSxxQkFBQTtFQUNBLGNBQUE7RUFDQSxzQkFBQTtBQ0RKOztBRElBO0VBQ0ksY0FBQTtBQ0RKOztBRElBO0VBQ0ksY0FBQTtBQ0RKOztBREtBLFVBQUE7QUFFQTtFQUNJLFlBQUE7RUFDQSxpREFBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0VBQ0EsWUFBQTtBQ0hKOztBRE1BO0VBQ0kscUJBQUE7QUNISjs7QURRQTtFQUNJLDBDQUFBO0VBQ0Esb0JBQUE7QUNMSjs7QURRQTtFQUNJLGNBQUE7RUFDQSxXQUFBO0FDTEo7O0FEUUE7RUFDSSxlQUFBO0VBQ0EsY0FBQTtFQUNBLFdBQUE7QUNMSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
