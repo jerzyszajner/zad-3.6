@@ -50,19 +50,20 @@ h1 {
 
 /* Intro */
 
-button {
-    border: none;
-    background-color: #ffe600ac;
-    padding: 15px;
+.button-style {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #13821c47;
     color: #ffffff;
-    margin: auto;
-}
-
-button a {
     text-decoration: none;
-
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;   
 }
 
+.button-style:hover {
+    background-color: #08480583;
+}
 
 #intro .container-fluid{
     background: #1e824889;
@@ -90,7 +91,6 @@ p {
     font-size: 30px;    
     color:#3d3d3d;
     margin-bottom: -40px;
-
 }
 
 #services p {
@@ -99,7 +99,6 @@ p {
     margin-top: -30px;
     line-height: 20px;
     padding-bottom: 70px;
-
 }
 
 #services h2 {
@@ -137,7 +136,6 @@ p {
     margin-top: -30px;
     line-height: 20px;
     padding-bottom: 70px;
-
 }
 
 #portfolio h2 {
